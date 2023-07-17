@@ -8,7 +8,7 @@ export function Step1({ handleChange, form }) {
 					type="text"
 					name="name"
 					id="name"
-					className="w-full rounded-md p-2 px-2 focus:outline-none border-teal-300 border-2 focus:border-teal-400 transition-colors duration-300 peer"
+					className="w-full rounded-md p-2 px-2 focus:outline-none border-green-300 border-2 focus:border-green-400 transition-colors duration-300 peer"
 					placeholder="e.g. John Doe"
 					value={form.name}
 					onChange={handleChange}
@@ -16,7 +16,7 @@ export function Step1({ handleChange, form }) {
 				<label
 					className={`${form.name !== ""
 							? "-translate-y-5 w-fit px-1"
-							: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-teal-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
+							: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-green-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
 					htmlFor="name"
 				>
 					Name:
@@ -27,7 +27,7 @@ export function Step1({ handleChange, form }) {
 					type="email"
 					name="email"
 					id="email"
-					className="w-full rounded-md p-2 px-2 focus:outline-none border-teal-300 border-2 focus:border-teal-400 transition-colors duration-300 peer"
+					className="w-full rounded-md p-2 px-2 focus:outline-none border-green-300 border-2 focus:border-green-400 transition-colors duration-300 peer"
 					value={form.email}
 					onChange={handleChange}
 					placeholder="e.g. johndoe@mail.com"
@@ -38,7 +38,7 @@ export function Step1({ handleChange, form }) {
 							: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-teal-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
 					htmlFor="email"
 				>
-					Email:
+					Mail:
 				</label>
 			</div>
 			<div className="relative">
@@ -46,7 +46,7 @@ export function Step1({ handleChange, form }) {
 					type="text"
 					name="phone"
 					id="phone"
-					className="w-full rounded-md p-2 px-2 focus:outline-none border-teal-300 border-2 focus:border-teal-400 transition-colors duration-300 peer"
+					className="w-full rounded-md p-2 px-2 focus:outline-none border-green-300 border-2 focus:border-green-400 transition-colors duration-300 peer"
 					value={form.phone}
 					onChange={handleChange}
 					placeholder="e.g. +234 1029384922"
@@ -55,10 +55,10 @@ export function Step1({ handleChange, form }) {
 				<label
 					className={`${form.phone !== ""
 							? "-translate-y-5 w-fit px-1"
-							: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-teal-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
+							: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-green-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
 					htmlFor="phone"
 				>
-					Phone:
+					Mobile:
 				</label>
 			</div>
 		</div>

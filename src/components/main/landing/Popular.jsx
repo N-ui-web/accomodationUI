@@ -98,7 +98,7 @@ export function Popular({ deluxe1, executive2, standard1 }) {
 				<div className="max-md:hidden">
 					<NavLink
 						to="/bookings"
-						className="bg-teal-200/20 text-teal-900 font-bold border-2 border-teal-200 hover:bg-teal-200/40 transition-all duration-300 rounded-full px-6 py-1 max-md:w-[80%] active:scale-90"
+						className="bg-green-200/20 text-green-900 font-bold border-2 border-green-200 hover:bg-green-200/40 transition-all duration-300 rounded-full px-6 py-1 max-md:w-[80%] active:scale-90"
 					>
 						View all
 					</NavLink>
@@ -139,7 +139,7 @@ export function Popular({ deluxe1, executive2, standard1 }) {
 				<div className="w-full max-md:flex justify-center px-3 pt-6 md:hidden">
 					<NavLink
 						to="/bookings"
-						className="bg-teal-200/20 text-teal-900 font-bold border-2 border-teal-200 hover:bg-teal-200/40 transition-all duration-300 rounded-full px-6 py-1 max-md:w-[80%]s active:scale-90 w-full text-center"
+						className="bg-green-200/20 text-green-900 font-bold border-2 border-green-200 hover:bg-green-200/40 transition-all duration-300 rounded-full px-6 py-1 max-md:w-[80%]s active:scale-90 w-full text-center"
 					>
 						View all
 					</NavLink>

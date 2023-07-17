@@ -19,14 +19,14 @@ export function MobileNavDrawer({ isOpened, navLinks, setIsOpened }) {
 								<div
 									className={`${
 										isActive ? "h-9" : "group-hover:h-9"
-									} bg-teal-400 w-1 rounded-full h-1 transition-all duration-300`}
+									} bg-green-400 w-1 rounded-full h-1 transition-all duration-300`}
 								/>
 								<div
 									className={`${
 										isActive
-											? "bg-teal-300/20"
-											: "hover:bg-teal-300/20"
-									} p-3 rounded-lg text-teal-900 font-bold transition-all duration-300 w-full`}
+											? "bg-green-300/20"
+											: "hover:bg-green-300/20"
+									} p-3 rounded-lg text-green-900 font-bold transition-all duration-300 w-full`}
 								>
 									{link.text}
 								</div>

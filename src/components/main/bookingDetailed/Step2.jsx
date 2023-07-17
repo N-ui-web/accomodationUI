@@ -8,7 +8,7 @@ export function Step2({ handleChange, form }) {
 					type="text"
 					name="address"
 					id="address"
-					className="w-full rounded-md p-2 px-2 focus:outline-none border-teal-300 border-2 focus:border-teal-400 transition-colors duration-300 peer"
+					className="w-full rounded-md p-2 px-2 focus:outline-none border-green-300 border-2 focus:border-green-400 transition-colors duration-300 peer"
 					placeholder="e.g. John Doe"
 					value={form.address}
 					onChange={handleChange}
@@ -16,7 +16,7 @@ export function Step2({ handleChange, form }) {
 				<label
 					className={`${form.address !== ""
 							? "-translate-y-5 w-fit px-1"
-							: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-teal-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
+							: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-green-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
 					htmlFor="address"
 				>
 					Address:
@@ -28,7 +28,7 @@ export function Step2({ handleChange, form }) {
 						type="date"
 						name="checkIn"
 						id="email"
-						className="w-full rounded-md p-2 px-2 focus:outline-none border-teal-300 border-2 focus:border-teal-400 transition-colors duration-300 peer"
+						className="w-full rounded-md p-2 px-2 focus:outline-none border-green-300 border-2 focus:border-green-400 transition-colors duration-300 peer"
 						value={form.checkIn}
 						onChange={handleChange}
 						placeholder="e.g. johndoe@mail.com"
@@ -36,7 +36,7 @@ export function Step2({ handleChange, form }) {
 					<label
 						className={`${form.checkIn !== ""
 								? "-translate-y-5 w-fit px-1"
-								: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-teal-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
+								: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-green-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
 						htmlFor="checkIn"
 					>
 						Check In:
@@ -48,7 +48,7 @@ export function Step2({ handleChange, form }) {
 						type="date"
 						name="checkOut"
 						id="checkOut"
-						className="w-full rounded-md p-2 px-2 focus:outline-none border-teal-300 border-2 focus:border-teal-400 transition-colors duration-300 peer"
+						className="w-full rounded-md p-2 px-2 focus:outline-none border-green-300 border-2 focus:border-teal-400 transition-colors duration-300 peer"
 						value={form.checkOut}
 						onChange={handleChange}
 						placeholder="e.g. johndoe@mail.com"
@@ -56,7 +56,7 @@ export function Step2({ handleChange, form }) {
 					<label
 						className={`${form.checkOut !== ""
 								? "-translate-y-5 w-fit px-1"
-								: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-teal-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
+								: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-green-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
 						htmlFor="checkOut"
 					>
 						Check Out:
@@ -68,7 +68,7 @@ export function Step2({ handleChange, form }) {
 					type="text"
 					name="guestCount"
 					id="guestCount"
-					className="w-full rounded-md p-2 px-2 focus:outline-none border-teal-300 border-2 focus:border-teal-400 transition-colors duration-300 peer"
+					className="w-full rounded-md p-2 px-2 focus:outline-none border-spring-green-300 border-2 focus:border-green-400 transition-colors duration-300 peer"
 					value={form.guestCount}
 					onChange={handleChange}
 					placeholder="e.g. 2"
@@ -77,7 +77,7 @@ export function Step2({ handleChange, form }) {
 				<label
 					className={`${form.guestCount !== ""
 							? "-translate-y-5 w-fit px-1"
-							: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-teal-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
+							: "peer-focus:-translate-y-5 peer-focus:w-fit peer-focus:px-1 w-[90%]"} transition-all duration-300 font-medium text-green-800 absolute top-2 left-0 ml-2 bg-white cursor-text`}
 					htmlFor="guestCount"
 				>
 					Number of Guests:

@@ -8,7 +8,7 @@ export function CallToAction({}) {
 		<section className="container mx-auto px-3 mt-10">
 			<div>
 				<h1 className="font-medium text-3xl max-md:text-center text-slate-800">
-					Get a Hotel or Accommodation Just for You
+					Get a Hotel/Accommodation Just for You
 				</h1>
 			</div>
 			<div className="mt-6">
@@ -16,7 +16,7 @@ export function CallToAction({}) {
 					<div className="text-slate-700 space-y-10">
 						<div className="md:space-y-16 p-12 pb-0 max-md:space-y-6">
 							<h1 className="font-medium md:text-4xl max-md:text-center max-md:text-3xl">
-								Pick based on your preferences
+								Pick your preffered choice
 							</h1>
 							<p className="max-md:text-center md:text-left">
 								Lorem ipsum dolor sit amet consectetur
@@ -28,7 +28,7 @@ export function CallToAction({}) {
 							<div className="bg-white divide-x-2 rounded-full flex justify-between overflow-hidden text-teal-900 fill-teal-900 border-2 border-teal-300 divide-teal-300 max-md:p-3">
 								<div className="flex items-center justify-center w-full gap-2">
 									<WifiIcon className="w-6 h-6" />
-									<span className="font-bold">Wifi</span>
+									<span className="font-bold">Wifi Connection</span>
 								</div>
 								<div className="flex items-center justify-center w-full gap-2">
 									<BedIcon className="w-6 h-6" />
@@ -36,7 +36,7 @@ export function CallToAction({}) {
 								</div>
 								<div className="flex items-center justify-center w-full gap-2">
 									<PoolIcon className="w-6 h-6" />
-									<span className="font-bold">Pool</span>
+									<span className="font-bold">Swimming Pool</span>
 								</div>
 								<button className="bg-teal-200 text-teal-900 p-3 px-10 max-md:hidden md:block">
 									<MagnifyingGlassIcon className="h-6 w-6" />

@@ -59,7 +59,7 @@ export function CheckOutModal({ toggleModal, modalOpened, unit }) {
 						>
 							<ChevronLeftIcon className="w-6 h-6" />
 						</button>
-						<div className="w-full">WanderInn</div>
+						<div className="w-full">TreatInn</div>
 						<div
 							className={`border-2 rounded-full p-1 h-7 w-7 text-sm flex items-center justify-center ${
 								step === 1
@@ -91,7 +91,7 @@ export function CheckOutModal({ toggleModal, modalOpened, unit }) {
 							formValid ? "hidden" : "block"
 						} rounded-lg w-full bg-teal-800 font-bold py-1.5 text-teal-200 hover:bg-teal-900 active:scale-90 transition-all duration-300`}
 					>
-						Please fill all fields
+						Make Purchase
 					</button>
 					<button
 						onClick={() => {
@@ -102,7 +102,7 @@ export function CheckOutModal({ toggleModal, modalOpened, unit }) {
 							formValid ? "block" : "hidden"
 						} rounded-lg w-full bg-teal-800 font-bold py-1.5 text-teal-200 hover:bg-teal-900 active:scale-90 transition-all duration-300`}
 					>
-						Thank You!
+						Many Thanks!
 					</button>
 				</div>
 			</form>

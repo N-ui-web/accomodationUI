@@ -27,14 +27,14 @@ export default function LoadingScreen() {
 
 	return (
 		<section className='bg-white fixed w-full inset-0 z-50'>
-			<section className="flex flex-col items-center justify-center min-h-screen gap-5 px-3 bg-teal-100/20">
+			<section className="flex flex-col items-center justify-center min-h-screen gap-5 px-3 bg-green-100/20">
 				<div>
 					<img src={logo} alt="" className="w-28 h-28 animate-pulse" />
 				</div>
-				<div className="bg-teal-500 w-full max-w-md mx-auto  border-teal-200">
-					<div className="h-0.5 font-bold text-teal-200 bg-teal-900 loadingAnimation flex items-center justify-center p-1" />
+				<div className="bg-green-500 w-full max-w-md mx-auto  border-green-200">
+					<div className="h-0.5 font-bold text-green-200 bg-green-900 loadingAnimation flex items-center justify-center p-1" />
 				</div>
-				<div className='text-teal-900 font-bold -mt-3'>
+				<div className='text-green-900 font-bold -mt-3'>
 					{Math.round(progress)}%
 				</div>
 			</section>
