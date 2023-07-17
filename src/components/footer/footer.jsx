@@ -19,7 +19,7 @@ export default function Footer() {
 			</button>
 			<div className="container mx-auto p-3 pb-0">
 				<div className="font-bold text-2xl max-md:text-center text-green-100 pb-4 md:px-10">
-					WanderInn
+					TreatInn
 				</div>
 				<div className="divide-y-4 divide-green-200/30">
 					<div className={`flex justify-between items-center md:flex-row max-md:flex-col gap-4 pb-4 transition-all duration-300 ${toggledFooter ? "hidden" : "block"}`}>
